@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/pratica-devops-python
+  IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/action_versionamento
 
 jobs:
   build-and-push:
